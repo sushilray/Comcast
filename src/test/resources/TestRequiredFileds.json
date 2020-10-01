@@ -1,0 +1,107 @@
+{
+  "createIngest": {
+    "captionsavailable": false,
+    "partner": "SKY-UK",
+	"uuid":"2755146112257223",
+	"breakpointsAvailable": true,
+    "manifest": {
+      "source": [
+        {
+          "id":"",
+          "fileLocator": "s3://vod.bskyb.com.s3.eu-west-1.amazonaws.com/vod/syfy.com/HD/CAprs1EqIsCuR4_JWHjtMb0_6SweKErq/200121_4103050_Magicians_Anonymous.ts",
+          "type": "video",
+          "codec": "H.264",
+          "duration": 2651068,
+          "container": "TS",
+          "screenFormat": "16:9",
+          "videoQuality": "HD",
+          "videoQualityResolution": "1080p",
+          "framerate": 25,
+          "language": "en",
+          "sequence": 1,
+          "closedCaptionFormat":"CaptionFormat",
+          "segmentInfo": {
+            "number": 1,
+            "startOfEssence": "10:00:00:00",
+            "startOfMedia": "10:00:00:00",
+            "endOfMedia": "10:44:11:17"
+          }
+        },
+        {
+          "fileLocator": "s3://vod.bskyb.com.s3.eu-west-1.amazonaws.com/vod/syfy.com/HD/CAprs1EqIsCuR4_JWHjtMb0_6SweKErq/200121_4103050_Magicians_Anonymous.ts",
+          "fileType": "audio",
+          "type": "audio",
+          "codec": "aac",
+          "container": "TS",
+          "audioType": "Dolby 5.1",
+          "language": "en",
+          "embedded": true,
+          "duration": 2651068,
+          "sequence": 1,
+          "closedCaptionFormat":"CaptionFormat",
+          "segmentInfo": {
+            "number": 1,
+            "startOfEssence": "10:00:00:00",
+            "startOfMedia": "10:00:00:00",
+            "endOfMedia": "10:44:11:17"
+          }
+        }
+      ]
+    },
+    "manifestId": "CAprs1EqIsCuR4_JWHjtMb0_6SweKErq",
+    "title": "Magicians Anonymous 5:4",
+    "distribution": [
+      {
+        "package": {
+          "packageAssetId": "SKYU2755146112257223",
+          "provider": "SCIFI",
+          "breakpointsavailable": true,
+          "providerId": "syfy.com",
+          "versionMajor": 1,
+          "versionMinor": 0,
+          "title": {
+            "licensingWindowStart": "2020-02-09T00:00:00",
+            "licensingWindowEnd": "2020-05-01T23:59:59",
+            "versionMajor": 1,
+            "versionMinor": 0,
+            "asset": [
+              {
+                "contentAssetId": "SKYC2755451461122574",
+                "versionMajor": 1,
+                "versionMinor": 0,
+                "breakPoints": {
+                  "postRoll": "",
+                  "midRolls": [
+                    "00:11:52.039-00:11:54.042",
+                    "00:18:13.954-00:18:15.957",
+                    "00:26:47.000-00:26:49.001",
+                    "00:33:07.047-00:33:09.048",
+                    "00:39:09.007-00:39:11.010"
+                  ],
+                  "midRollLocals": [],
+                  "postRollLocal": "",
+                  "distributorExtRef": "SKY-UK",
+                  "leadBlack": "00:00:00.000-00:00:07.001",
+                  "preRoll": "",
+                  "action": "Update",
+                  "assetName": "TheMagicians504_SD",
+                  "preRollLocal": ""
+                },
+                "class": "movie"
+              }
+            ],
+            "titleAssetId": "SKYT2755146112257453"
+          },
+          "platform": [
+            {
+              "eligiblePlatform": "OTT",
+              "window": "2020-02-09T00:00:00,2020-05-01T23:59:59"
+            }
+          ]
+        },
+        "guid": "CAprs1EqIsCuR4_JWHjtMb0_6SweKErq_M_SD_IP",
+        "videoQuality": "SD"
+      }
+    ]
+  }
+}

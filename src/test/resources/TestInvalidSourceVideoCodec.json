@@ -1,0 +1,132 @@
+{
+  "createIngest": {
+    "partner": "sky-uk",
+    "manifestId": "CAprs1EqIsCuR4_JWHjtMb0_6SweKErq",
+    "title": "Magicians Anonymous 5:4",
+    "manifest": {
+      "source": [
+        {
+          "fileLocator": "s3://vod.bskyb.com.s3.eu-west-1.amazonaws.com/vod/syfy.com/HD/CAprs1EqIsCuR4_JWHjtMb0_6SweKErq/200121_4103050_Magicians_Anonymous.ts",
+          "type": "video",
+          "codec": "mmmH.264",
+          "duration": 2651068,
+          "container": "TS",
+          "screenFormat": "16:9",
+          "videoQuality": "HD",
+          "videoQualityResolution": "1080p",
+          "framerate": 25,
+          "language": "en",
+          "sequence": 1,
+          "segmentInfo": {
+            "number": 1,
+            "startOfEssence": "10:00:00:00",
+            "startOfMedia": "10:00:00:00",
+            "endOfMedia": "10:44:11:17"
+          }
+        },
+        {
+          "fileLocator": "s3://vod.bskyb.com.s3.eu-west-1.amazonaws.com/vod/syfy.com/HD/CAprs1EqIsCuR4_JWHjtMb0_6SweKErq/200121_4103050_Magicians_Anonymous.ts",
+          "fileType": "audio",
+          "type": "audio",
+          "codec": "aac",
+          "container": "TS",
+          "audioType": "Dolby 5.1",
+          "language": "en",
+          "embedded": true,
+          "duration": 2651068,
+          "sequence": 1,
+          "segmentInfo": {
+            "number": 1,
+            "startOfEssence": "10:00:00:00",
+            "startOfMedia": "10:00:00:00",
+            "endOfMedia": "10:44:11:17"
+          }
+        }
+      ]
+    },
+    "distribution": [
+      {
+        "guid": "CAprs1EqIsCuR4_JWHjtMb0_6SweKErq_M_HD_IP",
+        "videoQuality": "HD",
+        "package": {
+          "providerId": "syfy.com",
+          "provider": "SYFY_EXP_HD",
+          "platform": [
+            {
+              "eligiblePlatform": "OTT",
+              "window": "2020-02-09T00:00:00Z,2020-05-01T23:59:59Z"
+            }
+          ],
+          "title": {
+            "licensingWindowStart": "2020-02-09T00:00:00Z",
+            "licensingWindowEnd": "2020-05-01T23:59:59Z",
+            "asset": [
+              {
+                "class": "movie",
+                "breakPoints": {
+                  "distributorExtRef": "SKY-UK",
+                  "action": "Update",
+                  "assetName": "TheMagicians504_HD",
+                  "leadBlack": "00:00:00.000-00:00:07.001",
+                  "preRoll": "",
+                  "midRolls": [
+                    "00:11:52.039-00:11:54.042",
+                    "00:18:13.954-00:18:15.957",
+                    "00:26:47.000-00:26:49.001",
+                    "00:33:07.047-00:33:09.048",
+                    "00:39:09.007-00:39:11.010"
+                  ],
+                  "postRoll": "",
+                  "preRollLocal": "",
+                  "midRollLocals": [],
+                  "postRollLocal": ""
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "guid": "CAprs1EqIsCuR4_JWHjtMb0_6SweKErq_M_SD_IP",
+        "videoQuality": "SD",
+        "package": {
+          "providerId": "syfy.com",
+          "provider": "SCIFI",
+          "platform": [
+            {
+              "eligiblePlatform": "OTT",
+              "window": "2020-02-09T00:00:00Z,2020-05-01T23:59:59Z"
+            }
+          ],
+          "title": {
+            "licensingWindowStart": "2020-02-09T00:00:00Z",
+            "licensingWindowEnd": "2020-05-01T23:59:59Z",
+            "asset": [
+              {
+                "class": "movie",
+                "breakPoints": {
+                  "distributorExtRef": "SKY-UK",
+                  "action": "Update",
+                  "assetName": "TheMagicians504_SD",
+                  "leadBlack": "00:00:00.000-00:00:07.001",
+                  "preRoll": "",
+                  "midRolls": [
+                    "00:11:52.039-00:11:54.042",
+                    "00:18:13.954-00:18:15.957",
+                    "00:26:47.000-00:26:49.001",
+                    "00:33:07.047-00:33:09.048",
+                    "00:39:09.007-00:39:11.010"
+                  ],
+                  "postRoll": "",
+                  "preRollLocal": "",
+                  "midRollLocals": [],
+                  "postRollLocal": ""
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
